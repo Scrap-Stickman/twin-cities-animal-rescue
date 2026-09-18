@@ -29,6 +29,11 @@ header img {
   height: auto;
 }
 
+picture img {
+  width: 100%;
+  max-width: 320px;
+}
+
 a {
   color: #0f9d82;
 }
@@ -201,8 +206,9 @@ figcaption {
 }
 
 video {
-  width: 100%;
-  max-width: 320px;
+  width: 240px;
+  max-width: 100%;
+  height: auto;
 }
 
 @media (min-width: 700px) {
